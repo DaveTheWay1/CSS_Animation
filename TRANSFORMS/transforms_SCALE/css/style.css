@@ -1,0 +1,27 @@
+body{
+    background-color: lightblue;
+    text-align: center; 
+    /* text align will center any text in our body
+    in our case it succesfully centers the cloud */
+}
+
+.wrapper{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+img{
+    transform: scaleX(1);
+    /* * SCALE X 
+    STRETCHES OR SHRINKS BY WIDTH 
+    it works with anything above the number 1 to widen..
+    anything under 1 will shrink*/
+    /* * SCALE Y
+    SHRINKS OR ELONGATES THE HEIGHT 
+    anything over 1 will make it taller..
+    anything below 1 will shrink it
+    */
+    /* * TWO NUMBER VALUES
+    x first, then y */
+}
